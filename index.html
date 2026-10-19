@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Muhamed El Refaei's portfolio, created for the NextGen Frontend Development Internship."
+    />
+
+    <title>Muhamed El Refaei | Front-End Developer</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="profile-header">
+      <h1>Muhamed El Refaei</h1>
+      <p>Front-End Developer</p>
+    </header>
+
+    <main>
+      <section class="about">
+        <h2>About Me</h2>
+
+        <p>
+          Hello! I'm Muhamed El Refaei, an aspiring front-end developer
+          interested in building clean, user-friendly, and responsive websites.
+          I enjoy learning web technologies and improving my skills through
+          practical projects.
+        </p>
+
+        <p>
+          This portfolio website was developed as part of my NextGen Frontend
+          Development Internship task. It demonstrates my understanding of HTML
+          structure, CSS styling, webpage layouts, tables, and forms.
+        </p>
+      </section>
+
+      <section class="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+              HTML5
+            </a>
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+              CSS3
+            </a>
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+              JavaScript
+            </a>
+          </li>
+          <li>
+            <a href="https://react.dev/"> React.js </a>
+          </li>
+          <li>
+            <a href="https://angular.dev/"> Angular </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="experience">
+        <h2>Experience Timeline</h2>
+
+        <p class="table-caption">Professional Experience Overview</p>
+
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Company</th>
+                <th>Logo</th>
+                <th>Role</th>
+                <th>Key Achievements</th>
+                <th>Dates</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td rowspan="2">TechCorp</td>
+
+                <td rowspan="2">
+                  <div class="company-logo techcorp">TC</div>
+                </td>
+
+                <td>Senior Full Stack Developer</td>
+
+                <td>
+                  <ul>
+                    <li>Led web application development</li>
+                    <li>Mentored junior developers</li>
+                    <li>Designed scalable solutions</li>
+                  </ul>
+                </td>
+
+                <td>Jan 2023 – Present</td>
+              </tr>
+
+              <tr>
+                <td>Full Stack Developer</td>
+
+                <td>
+                  <ul>
+                    <li>Contributed to web applications</li>
+                    <li>Collaborated with development teams</li>
+                    <li>Improved application features</li>
+                  </ul>
+                </td>
+
+                <td>2021 – 2023</td>
+              </tr>
+
+              <tr>
+                <td>Digital Agency Pro</td>
+
+                <td>
+                  <div class="company-logo digital">DA</div>
+                </td>
+
+                <td>Frontend Developer</td>
+
+                <td>
+                  <ul>
+                    <li>Built website interfaces</li>
+                    <li>Styled responsive layouts</li>
+                    <li>Improved user experience</li>
+                  </ul>
+                </td>
+
+                <td>2019 – 2020</td>
+              </tr>
+
+              <tr>
+                <td>Web Design Studio</td>
+
+                <td>
+                  <div class="company-logo studio">WD</div>
+                </td>
+
+                <td>Junior Web Developer</td>
+
+                <td>
+                  <ul>
+                    <li>Assisted with webpage development</li>
+                    <li>Practiced HTML and CSS</li>
+                    <li>Supported website design tasks</li>
+                  </ul>
+                </td>
+
+                <td>2019 – 2020</td>
+              </tr>
+            </tbody>
+
+            <tfoot>
+              <tr>
+                <td colspan="5">
+                  Total Experience: 5+ years in web development
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </section>
+
+      <section class="contact">
+        <h2>Contact Me</h2>
+
+        <p>
+          Feel free to get in touch to discuss web development, projects, or
+          professional opportunities.
+        </p>
+
+        <form id="contact-form">
+          <fieldset>
+            <legend>Personal Information</legend>
+
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="first-name">First name</label>
+                <input
+                  type="text"
+                  id="first-name"
+                  name="firstName"
+                  autocomplete="given-name"
+                  required
+                />
+              </div>
+
+              <div class="form-field">
+                <label for="last-name">Last name</label>
+                <input
+                  type="text"
+                  id="last-name"
+                  name="lastName"
+                  autocomplete="family-name"
+                  required
+                />
+              </div>
+
+              <div class="form-field">
+                <label for="email">Email address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+
+              <div class="form-field">
+                <label for="phone">Phone number</label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" />
+              </div>
+
+              <div class="form-field">
+                <label for="meeting-date">Preferred meeting date</label>
+                <input type="date" id="meeting-date" name="meetingDate" />
+              </div>
+
+              <div class="form-field">
+                <label for="contact-time">Best time to contact</label>
+                <input
+                  type="text"
+                  id="contact-time"
+                  name="contactTime"
+                  placeholder="e.g. 10 AM – 2 PM"
+                />
+              </div>
+            </div>
+          </fieldset>
+
+          <div class="form-buttons">
+            <button type="submit" class="send-button">Send Message</button>
+
+            <button type="reset" class="clear-button">Clear Data</button>
+          </div>
+
+          <p
+            id="form-message"
+            class="form-message"
+            role="status"
+            aria-live="polite"
+          ></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        &copy; 2026 Muhamed El Refaei | NextGen Frontend Development Internship
+        Task
+      </p>
+    </footer>
+
+    <script>
+      const form = document.getElementById("contact-form");
+      const message = document.getElementById("form-message");
+
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        message.textContent =
+          "Thank you! This demo form is not connected to an email service yet.";
+      });
+
+      form.addEventListener("reset", function () {
+        message.textContent = "";
+      });
+    </script>
+  </body>
+</html>
